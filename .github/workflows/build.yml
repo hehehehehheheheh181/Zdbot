@@ -20,6 +20,7 @@ jobs:
       - name: Build Mod
         uses: geode-sdk/build-geode-mod@main
         with:
+          sdk: v3.0.0
           bindings: geode-sdk/bindings
           combine: true
           target: ${{ matrix.config.target }}
