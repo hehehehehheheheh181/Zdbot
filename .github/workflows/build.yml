@@ -24,3 +24,4 @@ jobs:
           bindings: geode-sdk/bindings
           combine: true
           target: ${{ matrix.config.target }}
+
